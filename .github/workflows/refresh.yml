@@ -4,26 +4,51 @@ on:
   schedule:
     - cron: "37 23 * * 1-5"   # 23h37 UTC du lundi au vendredi = 0h37 a Paris en hiver, 1h37 en ete
   workflow_dispatch:           # bouton "Run workflow" pour lancer a la main
+  push:
+    branches: [main]           # republie le site quand tu deposes un fichier (sans appeler EODHD)
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
 
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-python@v5
+        if: github.event_name != 'push'
         with:
           python-version: "3.12"
+
       - name: Recuperer les cours EODHD
+        if: github.event_name != 'push'
         env:
           EODHD_KEY: ${{ secrets.EODHD_KEY }}
         run: python fetch.py
+
       - name: Enregistrer data/data.json
+        if: github.event_name != 'push'
         run: |
           git config user.name "robot-cours"
           git config user.email "robot-cours@users.noreply.github.com"
           git add data/data.json
           git diff --cached --quiet || git commit -m "Cours du $(date -u +%Y-%m-%d)"
           git push
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+      - name: Publier le site
+        id: deploy
+        uses: actions/deploy-pages@v4
