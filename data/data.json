@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02 17:27 UTC",
+ "updated": "2026-11-02 17:37 UTC",
  "quotes": {
   "NVDA": {
    "symbol": "NVDA.US",
@@ -28,8 +28,8 @@
   },
   "RHM": {
    "symbol": "RHM.XETRA",
-   "close": 1037.6,
-   "date": "2026-10-30"
+   "close": 1000.0,
+   "date": "2026-11-02"
   },
   "IBE": {
    "symbol": "IBE.MC",
