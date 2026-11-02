@@ -1,0 +1,56 @@
+{
+ "updated": "2026-11-02 (relevé manuel des agents)",
+ "quotes": {
+  "NVDA": {
+   "symbol": "NVDA.US",
+   "close": 204.64,
+   "date": "2026-10-30"
+  },
+  "MSFT": {
+   "symbol": "MSFT.US",
+   "close": 521.91,
+   "date": "2026-10-30"
+  },
+  "LLY": {
+   "symbol": "LLY.US",
+   "close": 1414.51,
+   "date": "2026-11-02"
+  },
+  "ASML": {
+   "symbol": "ASML.AS",
+   "close": 1412.8,
+   "date": "2026-10-30"
+  },
+  "SU": {
+   "symbol": "SU.PA",
+   "close": 237.5,
+   "date": "2026-10-30"
+  },
+  "RHM": {
+   "symbol": "RHM.XETRA",
+   "close": 1037.6,
+   "date": "2026-10-30"
+  },
+  "IBE": {
+   "symbol": "IBE.MC",
+   "close": 22.18,
+   "date": "2026-10-30"
+  },
+  "CCJ": {
+   "symbol": "CCJ.US",
+   "close": 77.95,
+   "date": "2026-11-02"
+  },
+  "JPM": {
+   "symbol": "JPM.US",
+   "close": 337.64,
+   "date": "2026-11-02"
+  },
+  "FCX": {
+   "symbol": "FCX.US",
+   "close": 64.94,
+   "date": "2026-11-02"
+  }
+ },
+ "errors": []
+}
