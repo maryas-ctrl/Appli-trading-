@@ -1,55 +1,55 @@
 {
- "updated": "2026-11-17 05:13 UTC",
+ "updated": "2026-11-18 04:40 UTC",
  "quotes": {
   "NVDA": {
    "symbol": "NVDA.US",
-   "close": 156.14,
-   "date": "2026-11-16"
+   "close": 155.46,
+   "date": "2026-11-17"
   },
   "MSFT": {
    "symbol": "MSFT.US",
-   "close": 517.99,
-   "date": "2026-11-16"
+   "close": 506.24,
+   "date": "2026-11-17"
   },
   "LLY": {
    "symbol": "LLY.US",
-   "close": 1431.67,
-   "date": "2026-11-16"
+   "close": 1415.55,
+   "date": "2026-11-17"
   },
   "ASML": {
    "symbol": "ASML.AS",
-   "close": 1306.6,
-   "date": "2026-11-16"
+   "close": 1236.8,
+   "date": "2026-11-17"
   },
   "SU": {
    "symbol": "SU.PA",
-   "close": 241.55,
-   "date": "2026-11-16"
+   "close": 236.6,
+   "date": "2026-11-17"
   },
   "RHM": {
    "symbol": "RHM.XETRA",
-   "close": 769.7,
-   "date": "2026-11-16"
+   "close": 760.9,
+   "date": "2026-11-17"
   },
   "IBE": {
    "symbol": "IBE.MC",
-   "close": 23.14,
-   "date": "2026-11-16"
+   "close": 22.88,
+   "date": "2026-11-17"
   },
   "CCJ": {
    "symbol": "CCJ.US",
-   "close": 65.99,
-   "date": "2026-11-16"
+   "close": 64.51,
+   "date": "2026-11-17"
   },
   "JPM": {
    "symbol": "JPM.US",
-   "close": 338.21,
-   "date": "2026-11-16"
+   "close": 329.96,
+   "date": "2026-11-17"
   },
   "FCX": {
    "symbol": "FCX.US",
-   "close": 55.19,
-   "date": "2026-11-16"
+   "close": 55.3,
+   "date": "2026-11-17"
   }
  },
  "errors": []
