@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26 05:22 UTC",
+ "updated": "2026-11-27 05:17 UTC",
  "quotes": {
   "NVDA": {
    "symbol": "NVDA.US",
@@ -18,23 +18,23 @@
   },
   "ASML": {
    "symbol": "ASML.AS",
-   "close": 1131.6,
-   "date": "2026-11-25"
+   "close": 1168.2,
+   "date": "2026-11-26"
   },
   "SU": {
    "symbol": "SU.PA",
-   "close": 216.65,
-   "date": "2026-11-25"
+   "close": 219.05,
+   "date": "2026-11-26"
   },
   "RHM": {
    "symbol": "RHM.XETRA",
-   "close": 735.8,
-   "date": "2026-11-25"
+   "close": 765.7,
+   "date": "2026-11-26"
   },
   "IBE": {
    "symbol": "IBE.MC",
-   "close": 22.72,
-   "date": "2026-11-25"
+   "close": 23.03,
+   "date": "2026-11-26"
   },
   "CCJ": {
    "symbol": "CCJ.US",
